@@ -11,3 +11,6 @@ file_name='https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/Cog
 df=pd.read_csv(file_name)
 
 df.head()
+
+
+print(df.dtypes)
